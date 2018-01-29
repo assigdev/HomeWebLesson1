@@ -6,7 +6,7 @@
 
 git clone https://github.com/assigdev/template_lesson
 
-1) В функции books к context добавить еще одну книгу в списке books
+1) В функцию books к context добавить еще одну книгу в списке books
 
 2) Открыть home.html и понять какой текст будет выводиться, а какой нет на главной и почему.
 
