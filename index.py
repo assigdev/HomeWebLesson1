@@ -4,9 +4,30 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+authors = [
+    {
+        'name': 'Тененбаум',
+        'books_count': 3
+    },
+    {
+        'name': 'Флэнеген',
+        'books_count': 2
+    },
+    {
+        'name': 'Самерфилд',
+        'books_count': 5
+    },
+
+]
 
 @app.route('/')
 def home():
+
+    return render_template('home.html')
+
+
+@app.route('/books/')
+def books():
     context = {
         'author': 'Тененбаум',
         'books': [
@@ -20,13 +41,7 @@ def home():
             },
         ]
     }
-    return render_template('home.html', **context)
-
-
-@app.route('/books/')
-def books():
-    book_name = 'Архитектура компьютера'
-    return render_template('books.html', book_n=book_name)
+    return render_template('books.html', **context)
 
 
 @app.route('/contact/')
@@ -35,8 +50,6 @@ def contact(phone=None):
     if phone is None:
         phone = '656565'
     return 'Мой телефон ' + phone
-
-
 
 
 if __name__ == '__main__':

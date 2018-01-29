@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h2>{{ author }}</h2>
-    {% for book in books %}
-        {% if book.title|length > 18 %}
-            <h4>Название книги: {{ book.title }}</h4>
-        {% else %}
-            <h2>Название книги: {{ book.title }}</h2>
-        {% endif %}
+{% extends 'base.html' %}
 
-        <p>Количество страниц: {{ book.pages }}</p>
-    {% endfor %}
-</body>
-</html>
+{% block title %} Home {% endblock %}
+
+<h3>Этот текст не будет отображен на странице потому, что он вне блока</h3>
+
+{% block content %}
+    <h2>Главная страница</h2>
+{% endblock %}
