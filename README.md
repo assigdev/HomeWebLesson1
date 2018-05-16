@@ -40,3 +40,40 @@ git clone 'Ваш репозиторий'
 потом делаем третье задание(второе не требует выполнение, нужно просто посмотреть) ->
 коммит с сообщением 'первое задание',
 Если с гитом проблемы возникнут - можно совместно их решить в группе телеграмм.
+
+
+### Материалы по  Курсу по веб разработке в Пери Инновации(дети: 13-19 лет):
+
+
+#### Занятия:
+
+https://github.com/assigdev/class_work8
+
+https://github.com/assigdev/class_work10
+
+https://github.com/assigdev/class_work11
+
+https://github.com/assigdev/class_work12
+
+
+#### ДЗ:
+
+https://github.com/assigdev/HomeWebLessons
+
+https://github.com/assigdev/HomeWebLesson1
+
+https://github.com/assigdev/HomeWebLesson2
+
+https://github.com/assigdev/HomeWebLesson3
+
+https://github.com/assigdev/HomeWebLesson4
+
+https://github.com/assigdev/HomeWebLesson5
+
+https://github.com/assigdev/HomeWebLesson6
+
+
+
+
+###### Преподаватель: Арсен Халилов
+###### почта: assigdev@gmail.com
